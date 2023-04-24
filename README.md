@@ -78,10 +78,7 @@ The [dataset](https://www.kaggle.com/datasets/holmjason2/videogamedata?resource=
 <td style="text-align:left;"><code>Critic_Score</code></td>
 <td>float</td>
 <td>Critic score according to Metacritic</td>
-</tr>
-  
-## Approach
-I will look to answer this question by comparing game sales to both critic and user reviews to determine which years had the highest quality video games, and explore whether the overall quality of video games has improved as the gaming market has grown.
+</tr> 
 <tr>
 <td style="text-align:left;"><code>User_Score</code></td>
 <td>float</td>
@@ -89,3 +86,19 @@ I will look to answer this question by comparing game sales to both critic and u
 </tr>
 </tbody>
 </table>
+
+## Approach
+I will look to answer this question by comparing game sales to both critic and user reviews to determine which years had the highest quality video games, and explore whether the overall quality of video games has improved as the gaming market has grown.
+
+To accomplish this, I used SQL to query a database of video game sales data, which included information on game titles, release dates, platforms, and sales numbers, and reviews. 
+
+After cleaning and preparing the data, I performed various analyses to identify patterns and trends in the video game market over time. This included comparing the average review scores for games released in different years, as well as examining the total sales.
+
+## Results
+After delving into a deep analysis of video game sales and reviews, my objective was to identify the Golden Age of Video Games. By leveraging the power of SQL, I meticulously examined data on game sales and critic and user reviews, aiming to unravel which years produced the highest quality video games and whether the quality of video games has improved as the gaming market has grown.
+
+Based on the data analysis conducted, it appears that the Golden Age of Video Games was between the late 90s to mid-2000s. This was a period when video games were rapidly evolving, and sales were continuing to grow. Both critics and players hold games from this era in high regard, with critics rating games from the early 90s and the 2010s highly and with players rating games from the early 2000s more favorably.
+
+Despite this, it's important to note that the 2010s were also a noteworthy period for video games, with both critics and players recognizing its strength. However, it's worth mentioning that this era did not make it to either group's top 10 rankings. Furthermore, the peak of the video game market occurred between 2005 and 2014, implying that the industry was becoming oversaturated with games.
+
+Overall, it seems that the Golden Age of Video Games occurred during a time of rapid evolution and growth in the industry, which produced many iconic games that have stood the test of time. However, the video game industry is constantly changing, and new eras of innovation and success are sure to come in the future.
