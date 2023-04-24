@@ -1,0 +1,5 @@
+.env
+.DS_Store
+archive.zip
+node_modules
+.ipynb_checkpoints
